@@ -5,29 +5,17 @@ Para desarrollar una aplicación REST en Go con una estructura que sea fácil de
 ## Estructura del Proyecto:
 
 -   `cmd/`: Este directorio contendrá el punto de entrada principal de la aplicación, así como cualquier script o archivo relacionado con la ejecución de la aplicación.
-
 -   `internal/`: Este directorio contendrá el código interno de la aplicación, incluidos los controladores, middleware, modelos y cualquier otro componente específico de la aplicación.
-
     -   `api/`: Contiene el código relacionado con la API REST.
-
         -   `handlers/`: Contiene el código relacionado con los handlers.
-
     -   `db/`: Contiene el código relacionado con la conexión a la base de datos y las operaciones de base de datos.
-
-    -   `middleware/`: Contiene el código para los middlewares de la aplicación.
-
     -   `models/`: Contiene las estructuras de datos de la aplicación.
-
     -   `logs/`: Contiene los logs de la aplicación.
-
 -   `pkg/`: Este directorio contendrá paquetes reutilizables que pueden ser utilizados por otras aplicaciones, si es necesario.
-
     -   `thirdparty/`: Contiene el código relacionado con las integraciones con API de terceros.
-
--   `configs/`: Este directorio puede contener archivos de configuración para la aplicación.
-
+    -   `middleware/`: Contiene el código para los middlewares de la aplicación.
+-   `config/`: Este directorio puede contener archivos de configuración para la aplicación.
 -   `scripts/`: Este directorio puede contener scripts relacionados con la construcción, pruebas o despliegue de la aplicación.
-
 -   `tests/`: Este directorio contendrá las pruebas de la aplicación.
 
 ## Elección de la Biblioteca/Framework:

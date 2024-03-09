@@ -5,29 +5,17 @@ To develop a RESTful application in Go with a structure that is easy to maintain
 ## Project Structure:
 
 -   `cmd/`: This directory will contain the main entry point of the application, as well as any scripts or files related to running the application.
-
 -   `internal/`: This directory will contain the internal code of the application, including controllers, middleware, models, and any other application-specific components.
-
     -   `api/`: Contains code related to the REST API.
-
         -   `handlers/`: Contains code related to the REST API handlers.
-
     -   `db/`: Contains code related to database connection and database operations.
-
-    -   `middleware/`: Contains code for application middlewares.
-
     -   `models/`: Contains application data structures.
-
     -   `logs/`: Contains application logs.
-
 -   `pkg/`: This directory will contain reusable packages that can be used by other applications if necessary.
-
     -   `thirdparty/`: Contains code related to integrations with third-party APIs.
-
--   `configs/`: This directory may contain configuration files for the application.
-
+    -   `middleware/`: Contains code for application middlewares.
+-   `config/`: This directory may contain configuration files for the application.
 -   `scripts/`: This directory may contain scripts related to building, testing, or deploying the application.
-
 -   `tests/`: This directory will contain the application's tests.
 
 ## Library/Framework Choice:
